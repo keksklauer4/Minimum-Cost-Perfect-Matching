@@ -1,5 +1,10 @@
 #include "Graph.h"
 
+#include "Globals.h"
+
+using namespace std;
+using namespace mincostmatching;
+
 Graph::Graph(int n, const list< pair<int, int> > & edges):
 	n(n),
 	m(edges.size()),
